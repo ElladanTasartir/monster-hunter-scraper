@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	config "github.com/ElladanTasartir/monster-hunter-scraper/internal/config"
+	"github.com/ElladanTasartir/monster-hunter-scraper/internal/config"
 	"github.com/ElladanTasartir/monster-hunter-scraper/internal/http"
 	"github.com/ElladanTasartir/monster-hunter-scraper/internal/storage"
 	"log"
