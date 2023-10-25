@@ -1,0 +1,4 @@
+port: 8080
+api_url: https://monsterhunter.fandom.com/wiki/MHWI:_Monsters
+mongo_uri: mongodb://scraper-mongo:scraper-mongo@localhost:27017/
+mongo_database: monsters
