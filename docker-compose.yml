@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mongo:
+    container_name: scraper-mongo
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: scraper-mongo
+      MONGO_INITDB_ROOT_USERNAME: scraper-mongo
+      MONGO_INITDB_DATABASE: monsters
+    ports:
+      - 27017:27017
